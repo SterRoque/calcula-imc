@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Calcule seu IMC</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <section class="corpo">
+
+        <section class="container">
+            <h3>PREENCHA OS CAMPOS ABAIXO</h3>
+            <span></span>
+            <table>
+                <thead>
+                    <tr>
+                        <th>CLASSIFICAÇÃO</th>
+                        <th>IMC</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Abaixo do Peso</td>
+                        <td>Abaixo 18.5</td>
+                    </tr>
+                    <tr>
+                        <td>Peso normal</td>
+                        <td>18.5 - 24.9</td>
+                    </tr>
+                    <tr>
+                        <td>Sobrepeso</td>
+                        <td>25 - 29.9</td>
+                    </tr>
+                    <tr>
+                        <td>Obesidade Grau I</td>
+                        <td>30 - 34.9</td>
+                    </tr>
+                    <tr>
+                        <td>Obesidade Grau II</td>
+                        <td>35 - 39.9</td>
+                    </tr>
+                    <tr>
+                        <td>Obesidade Grau III</td>
+                        <td>Maior ou Igual 40</td>
+                    </tr>
+                </tbody>
+    
+            </table>
+    
+            <form action="" id="form">
+                <label for="peso">Digite seu peso: </label>
+                <input type="text" id="peso">
+    
+                <label for="altura">Digite sua altura: </label>
+                <input type="text" id="altura">
+    
+                <button type="submit">Calcular</button>
+            </form>
+    
+            <div id="resultado"></div>
+        </section>
+    </section>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

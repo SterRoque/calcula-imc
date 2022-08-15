@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+:root {
+    --primary-color: rgb(0, 62, 155);
+    --primary-color-dark: rgb(4, 20, 71);
+
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+.corpo {
+    background-color: rgba(0, 0, 0, 0.281);
+}
+.container {
+    max-width: 500px;
+    margin: 5px auto;
+    background: rgba(0, 0, 0, 0.596);
+    padding: 40px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 166, 0, 0.705);
+}
+table {
+    margin: 10px auto;
+    
+    border: 1px solid rgba(255, 255, 255, 0.329);
+
+}
+th {
+    color: rgb(77, 184, 255);
+}
+td {
+    border: 1px solid rgba(255, 255, 255, 0.459);
+    text-align: center;
+}
+h3 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+span {
+    display: block;
+    background-color: orange;
+    width: 100%;
+    height: 3px;
+    margin-top: 8px;
+}
+form input, form label, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+form label {
+    color: rgb(255, 251, 0);
+    text-align: center;
+}
+
+form input {
+    background: rgba(255, 255, 255, 0.26);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgba(255, 166, 0, 0.678);
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+    border-radius: 10px;
+}
+/* form input:focus {
+     outline: 2px solid rgba(255, 255, 255, 0.5); 
+}*/
+form button {
+    border: none;
+    background: var(--primary-color);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+form button:hover {
+    background: var(--primary-color-dark);
+}
+
+.paragrafo-resultado {
+    background: rgba(16, 255, 24, 0.39);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.bad {
+    background: #ff0000bb;
+    padding: 10px;
+    border-radius: 5px;
+}
